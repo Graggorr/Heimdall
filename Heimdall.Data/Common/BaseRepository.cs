@@ -14,7 +14,7 @@ internal abstract class BaseRepository<TEntity>(ILogger<IRepository<TEntity>> lo
     protected readonly ILogger _logger = logger;
     protected readonly ApplicationDbContext _dbContext = dbContext;
     protected readonly DbSet<TEntity> _dbSet = dbContext.Set<TEntity>();
-    protected readonly string _tableName = nameof(TEntity);
+    protected readonly string _tableName = typeof(TEntity).Name;
     
     public async Task<Result> AddAsync(TEntity entity, CancellationToken cancellationToken = default)
     {
