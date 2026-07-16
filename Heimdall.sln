@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heimdall.Data", "Heimdall.Data\Heimdall.Data.csproj", "{174E3525-6E7A-4765-A4EC-7466F3D426CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3632F859-814A-4256-96FB-792906159136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heimdall.Common", "Heimdall.Common\Heimdall.Common.csproj", "{810CE6C9-20A1-49F0-AD31-5932419F4F07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{174E3525-6E7A-4765-A4EC-7466F3D426CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174E3525-6E7A-4765-A4EC-7466F3D426CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174E3525-6E7A-4765-A4EC-7466F3D426CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174E3525-6E7A-4765-A4EC-7466F3D426CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810CE6C9-20A1-49F0-AD31-5932419F4F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810CE6C9-20A1-49F0-AD31-5932419F4F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810CE6C9-20A1-49F0-AD31-5932419F4F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810CE6C9-20A1-49F0-AD31-5932419F4F07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{174E3525-6E7A-4765-A4EC-7466F3D426CB} = {3632F859-814A-4256-96FB-792906159136}
+		{810CE6C9-20A1-49F0-AD31-5932419F4F07} = {3632F859-814A-4256-96FB-792906159136}
+	EndGlobalSection
+EndGlobal
